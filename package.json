@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node severWithExpress.js",
     "dev": "node --watch severWithExpress.js"
   },
   "author": "",
