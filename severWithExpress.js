@@ -9,7 +9,7 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const connectDB = require('./config/dbConn')
 
-const PORT = process.env.PORT || 10000
+const PORT = process.env.PORT || 3500
 const {verifyJWT} = require('./middleware/verifyJWT')
 const cookieParser = require('cookie-parser')
 const credentials = require('./middleware/credentials')
