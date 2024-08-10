@@ -1,0 +1,42 @@
+20240803	13:33:53	ab2cc239-fc03-4f9c-a4b5-020ce746e38d	Error: Not allowed by CORS
+20240803	13:35:25	07dfdd7a-7046-4ab1-bbef-6bd0541eeb59	Error: Not allowed by CORS
+20240803	13:35:27	6ed1b5a4-adaf-4b99-bb87-f62ce93257ee	Error: Not allowed by CORS
+20240803	13:35:27	bfa92b5c-14b6-491f-b3c0-8ee2af12062e	Error: Not allowed by CORS
+20240803	15:14:06	1818fbc0-4f1a-4e5d-8eaa-e6019254127d	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:14:12	2cb5d195-e67c-478f-9637-e152c9f68c35	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:16:37	ecc8e6f5-df2f-44c8-86fc-a61013121a01	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:16:39	8554132e-7bd5-4ec5-9bc2-953e346d72e0	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:17:13	c87c954b-5488-48cf-a1d8-8689f4c08413	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:17:23	4ba1ae36-1c7e-4b9b-8870-e7dacf93eb3d	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\subdir\index.html'
+20240803	15:18:51	4d9c4e3e-e3bb-4f9e-a673-3daf088dfc22	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\view\subdir\index.html'
+20240803	15:19:15	f4570017-8bd0-47e0-9191-1c3b0f894b76	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\view\subdir\index.html'
+20240803	15:19:16	5e09ac60-296d-4347-acea-726bed46614a	Error: ENOENT: no such file or directory, stat 'D:\khac\nam_3\web\nodejs\phan3\view\subdir\index.html'
+20240804	09:59:08	2aeb9859-34e4-4f76-8cef-a5f46e058d49	TypeError: req.json is not a function
+20240804	10:00:21	82909370-9d7c-4265-904b-a15069de7470	TypeError: req.json is not a function
+20240804	10:01:20	1e1516d2-094b-4250-95ce-71ed188ff03c	TypeError: req.json is not a function
+20240804	10:03:07	fe7670d6-c640-493e-8c3b-9c1eddcb0410	TypeError: req.json is not a function
+20240804	17:30:38	b9761810-f088-4274-b599-88f6ba3fc0ee	ReferenceError: des is not defined
+20240804	17:31:06	9317adb7-5e0b-4aa6-a77e-2151028a60a9	ReferenceError: des is not defined
+20240804	17:32:55	58413370-4072-4518-b51b-d0758659558a	ReferenceError: des is not defined
+20240804	17:33:23	6eaec9d2-21d2-4115-8ecf-671a58dda4fe	ReferenceError: des is not defined
+20240804	17:37:38	331e9013-3739-4f9d-a174-09c7eb9b3ffa	TypeError: data.employees is not a function
+20240804	17:38:35	19ef5128-9945-45d3-b178-45193bea5af6	TypeError: data.employees is not a function
+20240804	17:38:54	a1a590e3-358f-45e6-b3b5-087c826bff6c	TypeError: Cannot read properties of undefined (reading 'id')
+20240804	17:41:40	b9eac9dd-92c8-449e-a25c-80dd7375de3b	TypeError: Cannot read properties of undefined (reading 'id')
+20240804	17:43:13	1de8ca0a-de50-47aa-a40a-e48d6f6443b6	TypeError: Cannot read properties of undefined (reading 'id')
+20240805	10:42:06	d15f4fe2-9511-4e4e-9a9b-300a978106dc	SyntaxError: Unexpected token '}', ..."2345678Zz"}" is not valid JSON
+20240805	22:46:41	1916d2cd-8e1d-4a59-ab29-eb7647a7ba5f	SyntaxError: Unterminated string in JSON at position 59
+20240806	09:21:44	5c129c76-91f5-449f-ba9f-71a3ac709859	TypeError: Cannot read properties of undefined (reading 'jwt')
+20240806	09:22:38	edeba5cb-38bb-4b75-a78e-0da68f0008fb	TypeError: Cannot read properties of undefined (reading 'jwt')
+20240806	09:22:54	de5365af-ee69-4f10-ae88-492775b30357	TypeError: Cannot read properties of undefined (reading 'jwt')
+20240806	09:23:03	bd2bb807-de76-49c3-abb8-8049dfed8019	TypeError: Cannot read properties of undefined (reading 'jwt')
+20240806	09:23:21	17581db5-84fb-4723-aedf-48a150e2ad3d	TypeError: Cannot read properties of undefined (reading 'jwt')
+20240806	13:13:04	501ac535-664e-4e3e-a5a1-9504f841a477	ReferenceError: c is not defined
+20240808	10:01:32	d62e7f6f-de5d-47ae-8f10-8b12838f1db4	TypeError: authHeader?.startWith is not a function
+20240808	10:02:50	4e7994d2-5ed4-4392-b252-bbe842d91fed	TypeError: authHeader?.startWith is not a function
+20240808	10:03:51	ac05121e-5fe7-4408-8230-ea06b080ee72	TypeError: authHeader.startWith is not a function
+20240808	10:04:20	ec89dab7-4cd1-46c7-8cfa-d5c19bdd617d	TypeError: authHeader.startWith is not a function
+20240808	10:05:03	c4a1a078-0401-4a1e-b321-4cb70404a6a6	TypeError: authHeader.startWith is not a function
+20240808	10:16:25	de106b72-d40e-456f-92a0-023252063901	TypeError: Cannot read properties of undefined (reading 'startsWith')
+20240808	10:23:28	e04502fd-28d2-426c-831e-7e5217bbb2de	TypeError: next is not a function
+20240808	10:27:17	6bb679e4-1c68-43c9-afa0-084d30b74c5d	TypeError: next is not a function

@@ -1,0 +1,78 @@
+Link bài giảng bắt đầu học từ bài 3: 
+https://www.youtube.com/watch?v=3ZAKY-CDKog&list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw&index=5
+
+Http status code
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+Tổng qua về 3 package liên quan đến jwt
+cookie-parser:
+Sử dụng để phân tích cú pháp các cookie từ các yêu cầu HTTP. 
+Nếu không có middleware này thì mình phải phân tích cookie
+Thông qua header tăng độ phức tạp
+Cookie có thể lưu trữ refresh token JWT để refresh token
+
+dotenv:
+Sử dụng để quản lý các biến môi trường, 
+chẳng hạn như khóa bí mật (secret key) để ký và xác minh token JWT.
+
+jsonwebtoken:
+Sử dụng để tạo và xác minh token JWT, được sử dụng để xác thực người dùng.
+
+5 loại cú pháp res
+- res.status(statusNumber).json(json): trả về statusNumber, json và kết thúc request (thường sử dụng)
+- res.sendStatus(statusNumber): trả về statusNumber và kết thúc request
+- res.sendFile(path): trả về file và kết thúc request
+- res.send(string): trả về string và kết thúc request
+* lưu ý nếu mình gửi res.status(statusNumber) thôi ấy thì nó sẽ treo 
+sever luôn (forever loop) rất nguy hiểm
+
+OBTIONAL CHAINING (?.) 
+- Là một tính năng trong JavaScript giúp đơn giản hóa việc truy cập vào 
+các thuộc tính sâu trong một đối tượng mà không cần kiểm tra từng bước xem 
+các thuộc tính đó có tồn tại hay không. Điều này giúp tránh các lỗi thường 
+gặp như TypeError: Cannot read property '...' of undefined.
+
+Cách hoạt động của Optional Chaining
+Truy cập thuộc tính:
+
+Thay vì viết mã kiểm tra sự tồn tại của từng cấp độ trong đối tượng, 
+bạn có thể sử dụng ?. để truy cập thuộc tính một cách an toàn.
+Ví dụ: object?.property sẽ trả về undefined nếu object là null hoặc undefined.
+Truy cập phần tử trong mảng:
+
+Bạn có thể sử dụng ?. để truy cập phần tử trong mảng một cách an toàn.
+Ví dụ: array?.[index] sẽ trả về undefined nếu array là null hoặc undefined.
+Gọi hàm:
+
+Bạn cũng có thể sử dụng ?. để gọi một hàm một cách an toàn.
+Ví dụ: object?.method() sẽ không gọi hàm và trả về undefined nếu object là null hoặc undefined.
+
+DO CHÍNH SÁCH CORS của Web
+nên frontend phải có credentials: include, axios, 
+fetch đều cần
+
+LỖI [Object: null prototype] {}
+Nếu thấy bất kì object này bị như vầy
+đặc biệt là cookie có nghĩa ban đầu tạo
+cookie bị sai format
+
+
+SỬ DỤNG .EXEC() VÀ KHI KHÔNG SỬ DỤNG .EXEC() 
+
+Không sử dụng .exec():
+Truy vấn được thực thi ngay lập tức và trả về một Promise.
+Tiện lợi và ngắn gọn khi sử dụng async/await hoặc làm việc trực tiếp với Promise.
+Không cần sử dụng trong TH như dùng query find() nhưng ko cần
+có điều kiện muốn trả về toàn bộ danh sách
+
+Sử dụng .exec():
+Cho phép bạn trì hoãn việc thực thi truy vấn cho đến khi gọi .exec().
+Cung cấp rõ ràng rằng truy vấn sẽ trả về một Promise.
+Có thể dùng với callback truyền vào .exec(callback).
+Nên sử dụng trong TH như dùng query findOne({name: res.body.name}).exex()
+có điều kiện (đk này tìm 1 document đầu tiên có tên req match với
+field name trong database) trả về 1 doc phù hợp hoặc null nếu ko có
+
+deploy
+Trang render nodejs: https://render.com/
+Video hướng dẫn: https://www.youtube.com/watch?v=NkulG9hH2LI 
