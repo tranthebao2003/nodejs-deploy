@@ -719,3 +719,5 @@
 20240809	15:24:09	d9259caa-47c8-4bb1-8b11-4076916be234	POST	undefined	/employees
 20240809	15:24:14	2dfc1a4c-c287-4fa7-9bc8-b38cb6716b1f	POST	undefined	/employees
 20240809	15:24:18	1c3791aa-1953-41a7-91b0-88980bdf3942	GET	undefined	/employees
+20240810	10:58:14	24c99163-8a8d-4c42-959f-ae3553beaff0	POST	undefined	/auth
+20240810	10:58:18	424be6d5-2bc0-46bf-bc5e-2ea2e22ed36d	POST	undefined	/auth
