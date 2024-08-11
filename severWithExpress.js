@@ -136,11 +136,11 @@ app.use(errorHandler)
 // Câu lệnh mongoose.connection.once('open', () => {}) trong Mongoose được 
 // sử dụng để thiết lập một callback sẽ được gọi một lần khi kết nối
 //  tới cơ sở dữ liệu MongoDB được mở thành công.
-mongoose.connection.once('open', () => {
-  console.log('Connected to MongoDB')
-  
-})
-
 app.listen(PORT, () =>
   console.log(`Server with express running on port ${PORT}`)
 );
+mongoose.connection.once('open', () => {
+  console.log('Connected to MongoDB')
+})
+
+
