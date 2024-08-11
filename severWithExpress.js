@@ -138,7 +138,9 @@ app.use(errorHandler)
 //  tới cơ sở dữ liệu MongoDB được mở thành công.
 mongoose.connection.once('open', () => {
   console.log('Connected to MongoDB')
-  app.listen(PORT, () =>
-    console.log(`Server with express running on port ${PORT}`)
-  );
+  
 })
+
+app.listen(PORT, () =>
+  console.log(`Server with express running on port ${PORT}`)
+);
