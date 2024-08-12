@@ -76,3 +76,6 @@ field name trong database) trả về 1 doc phù hợp hoặc null nếu ko có
 deploy
 Trang render nodejs: https://render.com/
 Video hướng dẫn: https://www.youtube.com/watch?v=NkulG9hH2LI 
+
+Ở node js này thì mình dùng package mongose nhưng ở khóa mongoDB
+thì mình lại dùng package mongodb. Chúng nó có sự khác nhau
